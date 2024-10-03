@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>A propos - Eloquent Grand B </title>
+    <meta property="og:title" content="Biographie Eloquent Grand B">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Eloquent, Music, Slam, Gabon">
+    <meta name="description"
+        content="Artiste multidisciplinaire et autodidacte, Eloquent Grand B, de son nom Domy Eloquent BILIMBE B'IBOUANGH, débute avec le label Marvely’s Art en 2018 où il va participer à différentes scènes de création artistique notamment ‘’Aningo’’ en partenariat avec l’association artistique Slam Action, à la pointe Denis et à l’Institut Français du Gabon. ">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Biographie Eloquent Grand B" />
+    <meta property="og:description"
+        content="Artiste multidisciplinaire et autodidacte, Eloquent Grand B, de son nom Domy Eloquent BILIMBE B'IBOUANGH, débute avec le label Marvely’s Art en 2018 où il va participer à différentes scènes de création artistique notamment ‘’Aningo’’ en partenariat avec l’association artistique Slam Action, à la pointe Denis et à l’Institut Français du Gabon. " />
+    <meta property="og:url" content="https://eloquent.com" />
+    <meta property="og:image" content="https://eloquent-grand-b.vercel.app/Images/Eloquent-Grand-B_1.jpg" />
+    <meta property="og:site name" content="Eloquent Grand B" />
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <meta property="og:locale" content="fr GA" />
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../menu.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header id="sticky-parallax-header"
+        class="lg:px-20 px-3 lg:py-2 py-0  flex items-center justify-center fixed w-full top-0 z-50">
+
+        <nav class="flex justify-between  mx-auto w-full  text-white  rounded-full lg:px-6 px-4 py-4 shadow-black/10">
+            <div>
+                <a href="#" class="font-bold text-xl bg-blend-difference">Eloquent Gand B</a>
+            </div>
+            <div class="fullPageMenu" id="nav">
+                <div class="banner">
+                    <img src="Images/Eloquent-Grand-B_6.jpg" alt="image">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="#bio" onclick="linkToggle()" class="text-3xl lg:text-7xl" data-text="A propos">A
+                                propos</a></li>
+                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                                data-text="Services">Services</a></li>
+                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                                data-text="Projets">Projets</a></li>
+                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                                data-text="Galerie">Galerie</a></li>
+                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                                data-text="Evènement">Evènement</a></li>
+                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                                data-text="Contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <span class="menuicon fixed" id="toggle" onclick="menuToggle()"></span>
+            </div>
+            <span
+                class="px-3 py-1 rounded-full outline outline-white outline-1 hover:bg-white/25 duration-300 menu-icon cursor-pointer text-slate-100 flex gap-2 items-center justify-center "
+                id="toggle" onclick="menuToggle()"><img class="w-6 " src="menu-sharp.svg" alt=""> Menu</span>
+
+        </nav>
+    </header>
+
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function menuToggle() {
+            var nav = document.getElementById("nav")
+            var toggle = document.getElementById("toggle")
+            nav.classList.toggle("active")
+            toggle.classList.toggle("active")
+        }
+        function linkToggle() {
+            var nav = document.getElementById("nav")
+            var toggle = document.getElementById("toggle")
+            nav.classList.toggle("active")
+            toggle.classList.toggle("active")
+        }
+    </script>
+</body>
+
+</html>
