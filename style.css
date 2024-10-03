@@ -13,7 +13,7 @@ body {
         to {
             z-index: 999;
             background-color: #0b1584;
-            height: 10vh;
+            /* height: 10vh; */
             font-size: 1.25em;
             background: #0b051d49;
             /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
@@ -23,6 +23,6 @@ body {
     #sticky-parallax-header {
         animation: sticky-parallax-header-move-and-size linear forwards;
         animation-timeline: scroll();
-        animation-range: 0vh 50vh;
+        animation-range: 0vh 90vh;
     }
 }
