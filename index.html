@@ -51,13 +51,13 @@
                         <li><a href="/pages/a-propos.html" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="A propos">A
                                 propos</a></li>
-                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                        <li><a href="#projets" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="Projets">Projets</a></li>
                         <li><a href="#services" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="Services">Services</a></li>
                         <li><a href="#galerie" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="Galerie">Galerie</a></li>
-                        <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
+                        <li><a href="#event" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="Evènement">Evènement</a></li>
                         <li><a href="#" onclick="linkToggle()" class="text-3xl lg:text-7xl"
                                 data-text="Contact">Contact</a></li>
@@ -142,7 +142,7 @@
                             class="w-32 h-24 object-cover outline outline-3 rounded-md outline-red-300" alt="">
                     </div>
                 </div>
-                <div class="flex flex-col gap-3">
+                <div class="flex flex-col gap-3 " id="event">
                     <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
                         class="text-4xl font-bold text-red-950">Evènements</h2>
                     <span class="h-[1px] w-full bg-red-300 mb-3 mt-1"></span>
@@ -210,7 +210,7 @@
             </div>
         </section>
         <!-- end bio  -->
-        <section class="min-h-[45dvh] w-full bg-cover  bg-fixed bg-black bg-[url(Images/Eloquent-Grand-B_6.jpg)]">
+        <section id="projets" class="min-h-[45dvh] w-full bg-cover  bg-fixed bg-black bg-[url(Images/Eloquent-Grand-B_6.jpg)]">
             <div class="relative bg-black/60 min-h-[45dvh] w-full grid place-content-center">
                 <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
                     class="text-white font-light lg:text-8xl text-7xl  text-center">Eloquent Grand B <span
@@ -221,11 +221,11 @@
 
 
         <!-- Projets  -->
-        <section id="projets"
+        <section
             class="min-h-[50dvh] w-full bg-cover bg-fixed bg-gray-900  bg-[url(Images/Eloquent-Grand-B_6.jpg)]  ">
             <div class="relative bg-black/60 min-h-[50dvh] w-full grid place-content-center pb-24 px-4">
                 <div
-                    class="w-full rounded-md max-w-6xl lg:px-12 px-5 h-full py-12 bg-black/35 grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-10">
+                    class="w-full rounded-md max-w-6xl lg:px-12 px-5 h-full py-12 bg-black/35 backdrop-blur-md grid lg:grid-cols-2 grid-cols-1 lg:gap-20 gap-10">
                     <div class="flex flex-col gap-2">
                         <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
                             class="text-4xl font-bold text-red-50">Single</h2>
