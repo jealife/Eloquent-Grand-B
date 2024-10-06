@@ -426,26 +426,37 @@
         <!-- end galerie  -->
 
         <!-- contact  -->
-        <section class="lg:pb-24 pb-14 pt-14 px-4 grid place-content-center min-h-svh bg-red-100" id="contatc"">
+        <section class="lg:pb-24 pb-14 pt-14 grid place-content-center min-h-svh bg-red-100" id="contatc"">
             <div class="max-w-7xl w-full mx-auto flex flex-col gap-24 px-3">
-                <div class="relative  px-3 min-h-[50dvh] w-full grid place-content-center gap-3">
+                <div class="relative  px-3 min-h-[50dvh] w-full grid  gap-3">
                     <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
-                        class="text-white font-light lg:text-7xl text-4xl  text-center">Contactez-moi
+                        class="text-white font-light lg:text-7xl text-4xl  text-center mb-12">Contactez-moi
                     </h1>
-                    <div>
-                        <form action="https://submit-form.com/tIRH4TX7" class="flex flex-col  items-center justify-center w-full px-4 py-12 rounded-lg bg-red-200">
-                            <div class="flex flex-col gap-4 w-full max-w-lg">
-                                <label class="text-gray-700 font-sans mt-2" for="name">Nom</label>
+                    <div class=" w-full grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-8">
+                        <div class="w-full">
+                            <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" src="Images/Eloquent-Grand-B_4.jpg" alt="" srcset="" class=" rounded-lg w-full h-full object-cover">
+                        </div>
+                        <form  data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"action="https://submit-form.com/tIRH4TX7" class="flex flex-col items-center justify-center px-4 py-12 rounded-lg bg-red-200">
+                            <div class="flex flex-col gap-5 w-full max-w-lg">
+                               <div class="flex flex-col gap-2">
+                                <!-- <label class="text-gray-700 font-sans" for="name">Nom</label> -->
                                 <input class=" px-3 py-3 rounded-xl w-full" type="text" id="name" name="name" placeholder="Nom" required="" />
-                                <label class="text-gray-700 font-sans mt-2" for="email">Email</label>
+                               </div>
+
+                               <div class="flex flex-col gap-2">
+                                <!-- <label class="text-gray-700 font-sans" for="email">Email</label> -->
                                 <input class=" px-3 py-3 rounded-xl w-full" type="email" id="email" name="email" placeholder="Email" required="" />
-                                <label class="text-gray-700 font-sans mt-2" for="message">Message</label>
+                               </div>
+
+                               <div class="flex flex-col gap-2">
+                                <!-- <label class="text-gray-700 font-sans" for="message">Message</label> -->
                                 <textarea class=" px-3 py-5 rounded-xl w-full"
                                   id="message"
                                   name="message"
                                   placeholder="Message"
                                   required=""
                                 ></textarea>
+                               </div>
                                 <button class="font-sans bg-red-400 py-3 px-4 self-end rounded-lg text-red-50 text-xl lg:w-min md-w-full " type="submit">Envoyer</button>
                             </div>
                           </form>
