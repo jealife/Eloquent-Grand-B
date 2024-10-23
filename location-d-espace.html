@@ -147,21 +147,42 @@
         <section class="lg:pb-24 pb-14 pt-14 grid place-content-center min-h-svh bg-red-100" id="contact"">
             <div class=" max-w-7xl w-full mx-auto flex flex-col gap-24 px-3">
             <div class="relative  px-3 min-h-[50dvh] w-full grid  gap-3">
-                <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
+                <h2 data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
                     class="text-gray-800 font-light lg:text-7xl text-4xl  text-center mb-12">Contactez-moi
-                </h1>
-                <div class=" w-full grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-8">
-                    <div class="w-full">
-                        <img data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
-                            src="Images/Eloquent-Grand-B_4.jpg" alt="" srcset=""
+                </h2>
+                <div class=" w-full grid lg:grid-cols-2 grid-cols-1 lg:gap-12 gap-8 " data-aos="fade-up"
+                    data-aos-delay="100" data-aos-duration="700">
+                    <div class="w-full relative ">
+                        <div
+                            class=" bg-black/65 grid place-content-center px-3 absolute z-10 rounded-lg w-full h-full text-white">
+                            <span class="text-2xl font-semibold">Infos</span>
+                            <div class="">
+                                <ul class="flex flex-col gap-5 text-white items-start justify-start py-5">
+                                    <li>
+                                        <a href="mailto:contact@éloquent.com"
+                                            class=" flex gap-3 items-center justify-center"><i
+                                                class='bx bx-envelope text-xl'></i> contact@éloquent.com</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://wa.me/24107961937" class="flex gap-3 items-center justify-center font-serif">
+                                            <i class='bx bxl-whatsapp text-xl'></i>+241 07 96 19 37
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                            <a href="http://" class=" flex gap-3 items-center justify-center"></a>
+                                        </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                        <img src="Images/Eloquent-Grand-B_4.jpg" alt="" srcset=""
                             class=" rounded-lg w-full h-full object-cover">
                     </div>
                     <form data-aos="fade-up" data-aos-delay="100" data-aos-duration="700"
                         action="https://submit-form.com/j4DJdUYY0"
-                        class="flex flex-col items-center justify-center px-4 py-12 rounded-lg bg-red-200">
+                        class="flex flex-col items-center justify-center px-4 py-12 rounded-lg bg-red-200 shadow- shadow-red-400/15">
+                        <input type="hidden" name="_redirect" value="https://éloquent.com/" />
                         <div class="flex flex-col gap-5 w-full max-w-lg">
                             <div class="flex flex-col gap-2">
-                                <input type="hidden" name="_redirect" value="https://éloquent.com/" />
                                 <!-- <label class="text-gray-700 font-sans" for="name">Nom</label> -->
                                 <input class=" px-3 py-3 rounded-xl w-full" type="text" id="name" name="name"
                                     placeholder="Nom" required="" />
@@ -179,7 +200,7 @@
                                     placeholder="Message" required=""></textarea>
                             </div>
                             <button
-                                class="font-sans bg-red-400 py-3 px-4 self-end rounded-lg text-red-50 text-xl lg:w-min md-w-full hover:bg-red-500 duration-300"
+                                class="font-sans bg-red-400 py-3 px-4 self-end rounded-lg text-red-50 text-xl lg:w-min md-w-full  hover:bg-red-500 duration-300"
                                 type="submit">Envoyer</button>
                         </div>
                     </form>
