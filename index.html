@@ -570,6 +570,14 @@
             document.getElementById("demo-form").submit();
         }
     </script>
+    <script>
+        function onClick(e) {
+          e.preventDefault();
+          grecaptcha.enterprise.ready(async () => {
+            const token = await grecaptcha.enterprise.execute('6Ldtk7UqAAAAACTRY3FfqZQqnBoQZNSN-fKNAgBZ', {action: 'LOGIN'});
+          });
+        }
+      </script>
 </body>
 
 </html>
