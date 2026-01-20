@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -32,6 +33,8 @@ const nextConfig = {
       },
     ],
   },
+  // Disable source maps for faster production builds if needed
+  productionBrowserSourceMaps: false,
 };
 
 export default nextConfig;

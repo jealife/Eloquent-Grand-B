@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function Projects() {
     const releases = [
         {
+            id: 1,
             title: "Drunk in Love",
             artist: "Eloquent Grand B",
             cover: "/Images/Eloquent-Grand-B-Drunk-In-Love-Cover.jpeg",
@@ -12,6 +13,7 @@ export default function Projects() {
             description: "Une exploration charnelle et spirituelle de l'attachement."
         },
         {
+            id: 2,
             title: "New Day",
             artist: "Eloquent Grand B",
             cover: "/Images/New-Day-Cover.jpeg",
