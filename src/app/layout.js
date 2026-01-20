@@ -1,20 +1,7 @@
-import { Playfair_Display, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AOSInit from "../components/AOSInit";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
-  display: "swap",
-});
-
-const outfit = Outfit({
-  subsets: ["latin"],
-  variable: "--font-outfit",
-  display: "swap",
-});
 
 export const metadata = {
   metadataBase: new URL("https://eloquent-grand-b.com"),
@@ -69,7 +56,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className={`${playfair.variable} ${outfit.variable}`}>
+    <html lang="fr">
       <head>
         <link
           href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
