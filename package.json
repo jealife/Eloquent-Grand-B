@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "next start",
     "lint": "eslint"
+  },
+  "engines": {
+    "node": ">=22.21.0"
   },
   "dependencies": {
     "aos": "^2.3.4",

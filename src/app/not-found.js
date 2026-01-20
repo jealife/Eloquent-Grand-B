@@ -19,7 +19,7 @@ export default function NotFound() {
                 </h1>
 
                 <div className="glass p-10 md:p-16 rounded-[40px] border-white/5 -mt-10 md:-mt-24 relative overflow-hidden backdrop-blur-2xl">
-                    <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-accent to-transparent opacity-50"></div>
+                    <div className="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-accent to-transparent opacity-50"></div>
 
                     <div className="space-y-8">
                         <h2 className="text-4xl md:text-6xl font-serif text-white leading-tight">
